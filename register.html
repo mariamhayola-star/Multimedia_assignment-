@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Forum - Register</title>
+    <link rel="stylesheet" href="auth.css">
+</head>
+<body>
+
+<div class="auth-card">
+
+    <div class="logo-circle">
+        <img src="logo.png" alt="Student Forum Logo">
+    </div>
+
+    <h1>Create Account</h1>
+    <p class="subtitle">Join the Student Forum</p>
+
+    <form action="register.php" method="POST">
+
+        <div class="input-group">
+            <label>Full Name</label>
+            <input type="text" name="fullname" required>
+        </div>
+
+        <div class="input-group">
+            <label>Email</label>
+            <input type="email" name="email" required>
+        </div>
+
+        <div class="input-group">
+            <label>Password</label>
+            <input type="password" name="password" required>
+        </div>
+
+        <button type="submit" class="btn">Register</button>
+
+    </form>
+
+    <div class="switch">
+        Already have an account? <a href="login.html">Login</a>
+    </div>
+
+</div>
+
+</body>
+</html>
